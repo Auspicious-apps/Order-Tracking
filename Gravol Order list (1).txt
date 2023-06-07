@@ -1,0 +1,26 @@
+Endpoint: https://api.diggipacks.com//orders/API/GetDetails
+
+Body: 
+Format: Raw / Json
+
+{
+    "customerId": "168052266339",
+    "format": "json",
+    "secret_key": "75e775-2e3f3a-881328-525782-46d7ae",
+    "param": {
+        "booking_id": "1011"
+    }
+}
+
+
+Result:
+
+{
+    "status": 200,
+    "msg": "success",
+    "result": {
+        "slip_no": "DGU5690350872",
+        "code": "POD",
+        "main_status": "Delivered"
+    }
+}
